@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Car Dealership</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">Luxury Cars</div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#cars">Cars</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+ 
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Welcome to Luxury</h1>
+            <p>“Speed has never killed anyone, suddenly becoming stationary… that's what gets you.” – Jeremy Clarkson</p>
+            <button onclick="scrollToSection('cars')">Browse Cars</button>
+        </div>
+    </section>
+
+    <section id="cars" class="container">
+        <h2>Featured Cars</h2>
+        <div class="car-grid">
+            <div class="car-card">
+                <img src="porche.png" alt="Car 1">
+                <h3>porche 718 cayman GT4 RS</h3>
+                <p>Price: £95,000</p>
+                <button>View Details</button>
+            </div>
+            <div class="car-card">
+                <img src="car1.png" alt="Car 2">
+                <h3>Porsche Taycan</h3>
+                <p>Price: £78,000</p>
+                <button>View Details</button>
+            </div>
+            <div class="car-card">
+                <img src="car2.png" alt="Car 3">
+                <h3>Porsche 718 Boxstar  </h3>
+                <p>Price: £85,000</p>
+                <button>View Details</button>
+            </div>
+            <div class="car-card">
+                <img src="car5.png" alt="Car 4">
+                <h3>Porsche Taycan Sedan 2024</h3>
+                <p>Price: £95,000</p>
+                <button>View Details</button>
+            </div>
+            <div class="car-card">
+                <img src="audi.png" alt="Car 3">
+                <h3>Audi Q7</h3>
+                <p>Price: £66,690</p>
+                <button>View Details</button>
+            </div>
+            
+            <!-- Add more car cards as needed -->
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p> made by saif abbas </p>
+        </div>
+    </footer>
+</body>
+</html>
